@@ -100,3 +100,73 @@ Los desarrolladores deben considerar seis tipos principales de contexto:
 • Herramientas: Las definiciones precisas de las APIs, scripts y servicios externos que el agente puede invocar.
 
 • Reglas de control (Guardrails): Restricciones estrictas, reglas de formato y validaciones de seguridad.
+
+## Separación basada en la información
+
+En la ingeniería de contexto para el desarrollo de agentes de IA, existe una separación crítica basada en la información que el agente posee desde el inicio frente a la que recupera según la necesidad
+
+. Esto define los dos tipos de contexto:
+
+- **Contexto Estático**: Es la información que está siempre cargada en cada interacción y define quién es el agente y cómo debe comportarse. Al estar presente en cada intercambio, asegura que el agente nunca olvide sus reglas y comportamientos fundamentales. Incluye elementos como las instrucciones del sistema, archivos de reglas (como AGENTS.md), la memoria global, las definiciones de su persona y los guardarraíles de seguridad
+
+
+- **Contexto Dinámico**: Es la información que se carga bajo demanda, únicamente cuando una tarea específica lo requiere
+. Este enfoque es eficiente y escalable, ya que el sistema solo consume la cantidad de memoria (y paga el costo) por la información que el agente realmente necesita en ese momento. Incluye las instrucciones de habilidades (Agent Skills) activadas por la tarea, los resultados de las herramientas, el historial de la sesión y los documentos recuperados mediante sistemas RAG.
+
+A continuación, se presenta una tabla comparativa destacando sus diferencias clave:
+
+|Característica|Contexto Estático|Contexto Dinámico|
+|:-------------|:----------------|:----------------|
+|Definición|Información que define la identidad y el comportamiento base del agente.|Información situacional que el agente utiliza para resolver una tarea particular.|
+|Carga de información|Siempre cargado en todas las interacciones.|Cargado bajo demanda, por turno o tarea.|
+|Costo de tokens|Alto: se paga en cada interacción sin importar si la información es relevante o no.|Bajo: se paga de forma eficiente solo por la información que se utiliza.|
+|Componentes típicos|Instrucciones del sistema, archivos de reglas (AGENTS.md), memoria global y guardarraíles centrales.|Habilidades (Agent Skills), resultados de herramientas, documentos (RAG) e historial de la sesión.|
+|Ventaja principal|Es sumamente confiable; asegura que el agente nunca olvide sus directrices fundamentales.|Evita la sobrecarga del modelo, es altamente escalable y eficiente.|
+|Riesgo o Desventaja|Si hay demasiada información estática, se desperdician tokens, se sobrecarga la memoria y se diluye la atención del modelo.|Si hay muy poca información base, el agente puede olvidar reglas críticas antes de recuperar el contexto correcto.|Diseñar qué información pertenece al contexto estático y cuál al dinámico es una decisión arquitectónica fundamental en este nuevo paradigma de desarrollo|
+
+Diseñar qué información pertenece al contexto estático y cuál al dinámico es una decisión arquitectónica fundamental en este nuevo paradigma de desarrollo
+
+## Degradación de contexto 
+
+La **degradación del contexto** (*context rot*) es un problema crítico que ocurre cuando el rendimiento y la precisión de un Modelo de Lenguaje Grande (LLM) disminuyen debido a la introducción de demasiada información en su ventana de contexto.
+
+A pesar de que los modelos actuales tienen ventanas de contexto cada vez más grandes, las investigaciones demuestran que **a medida que crece la cantidad de texto ingresado, la precisión del modelo se degrada**, incluso si la dificultad de la tarea sigue siendo la misma. 
+
+Este problema se caracteriza por los siguientes factores:
+
+*   **El fenómeno "Perdido en el medio" (*Lost in the Middle*):** Los modelos tienen un rendimiento mucho más alto procesando la información que se encuentra al principio o al final de su entrada de texto. Si las instrucciones o datos clave quedan enterrados en la mitad de un contexto masivo, el modelo frecuentemente los ignorará.
+
+*   **Acumulación de ruido e irrelevancia:** En el desarrollo de agentes reales, el contexto suele llenarse de ruido (resultados de herramientas, recuperaciones a medias o irrelevantes). Esto hace que el modelo pierda la capacidad de distinguir el contenido relevante de las simples distractores.
+
+*   **Sobrecarga por co-carga:** Introducir y cargar simultáneamente demasiadas habilidades (*Skills*) o instrucciones, aunque funcionen perfectamente de forma aislada, termina por saturar la atención del modelo y causa la degradación del contexto.
+
+**¿Cómo se soluciona?**
+Para evitar la degradación del contexto y los altos costos de tokens, se evita crear un único *prompt* gigante (por ejemplo, de 15,000 tokens cargado en cada interacción). En su lugar, se utiliza el enfoque del **contexto dinámico** y la **revelación progresiva** (*progressive disclosure*). El agente mantiene un contexto activo muy ligero (solo metadatos) y **carga el cuerpo y las instrucciones detalladas de una habilidad (Skill) de forma exclusiva cuando la tarea realmente lo requiere**.
+
+## Modo Director (Conductor) y el modo Orquestador (Orchestrator)
+
+### Modo Director (Conductor): Dirección detallada y en tiempo real
+
+- **Cómo funciona**: Es un trabajo sincrónico y en tiempo real dentro del entorno de desarrollo (IDE). El desarrollador actúa como si estuviera programando en pareja con la IA: observa cómo aparece el código, guía a la máquina con instrucciones y realiza correcciones inmediatas.
+
+- **Nivel de control**: Mantiene un control minucioso, a nivel de pulsación de teclas y usualmente con un alcance de un solo archivo a la vez.
+
+- **Casos de uso ideales**: Es el modo natural para trabajar en lógica compleja, depurar problemas difíciles, realizar codificación exploratoria o navegar por bases de código desconocidas donde el humano necesita entender cada cambio a medida que se hace.
+
+- **Riesgo**: Si el desarrollador intenta dirigir cada línea de código personalmente, se convierte en un cuello de botella, limitando la velocidad y el rendimiento que la IA puede ofrecer.
+
+- **Herramientas típicas**: Autocompletado en línea o chat en el editor con herramientas como GitHub Copilot, Gemini Code Assist, Cursor o Windsurf.
+
+### Modo Orquestador (Orchestrator): Delegación asíncrona de alto nivel
+
+-**Cómo funciona**: El desarrollador opera a un nivel de abstracción mucho mayor. Define objetivos, los asigna a agentes (que pueden trabajar en segundo plano o en paralelo) y luego evalúa los resultados finales, a menudo en forma de un Pull Request. En este modo, el desarrollador no observa cómo se escribe el código línea por línea.
+
+-**Nivel de control**: Es un control a nivel de objetivos (metas), con una retroalimentación retrasada y un alcance que abarca múltiples archivos y herramientas.
+
+-**Casos de uso ideales**: Tareas bien definidas como corrección de errores conocidos, implementación de características bajo patrones ya establecidos, migraciones de código y generación de suites de pruebas.
+
+-**Nuevas habilidades requeridas**: Para ser un buen orquestador, el desarrollador necesita habilidades distintas a dominar la sintaxis: especificación (definir tareas sin ambigüedades), descomposición (dividir grandes problemas en partes manejables por la IA), evaluación (juzgar rápidamente si el resultado tiene la calidad necesaria) y diseño de sistemas (crear las restricciones para que los agentes sean productivos).
+
+- **Herramientas típicas**: Agentes de terminal o de fondo como Google Jules, el modo agente de GitHub Copilot, Claude Code o los agentes en segundo plano de Cursor.
+
+En la práctica diaria del vibe coding avanzado, la mayoría de los desarrolladores no eligen uno u otro, sino que alternan entre ambos de forma natural. Usan el modo Director cuando están inmersos en el flujo de escritura y necesitan resolver un bloque lógico complejo, y cambian al modo Orquestador cuando pueden describir una tarea en un párrafo, delegarla y alejarse mientras el agente ejecuta el trabajo a través de toda la base de código.
