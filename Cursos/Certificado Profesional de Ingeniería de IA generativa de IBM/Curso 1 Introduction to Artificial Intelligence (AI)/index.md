@@ -10,4 +10,8 @@ El curso incluye laboratorios prácticos y un proyecto, que ofrecen la oportunid
 
 Este curso es apto para todos, incluidos profesionales, entusiastas y estudiantes interesados en aprender los fundamentos de la IA.
 
-1. [Introducción y aplicaciones de la IA](./Módulo%201%20Introducción%20y%20aplicaciones%20de%20la%20IA/Módulo%201%20Introducción%20y%20aplicaciones%20de%20la%20IA.md)
+- [Introducción y aplicaciones de la IA](./Introducción%20y%20aplicaciones%20de%20la%20IA.md)
+- [Diferentes Tipo de IA](./Diferentes%20Tipo%20de%20IA.md)
+- [Machine Learning](./Machine%20Learning.md)
+- [Deep Learning](./Deep%20Learning.md)
+- [Generative AI](./Generative%20AI.md)
