@@ -1,8 +1,8 @@
 # 🎓 Certificado Profesional de IA de Google
 
 *   **Plataforma / Emisor:** Google / Coursera
-*   **Estado:** ⏳ En Progreso
-*   **Progreso:** 6/7 Cursos completados
+*   **Estado:** ✅ Completado
+*   **Progreso:** 7/7 Cursos completados (Certificado Completo)
 
 ---
 
@@ -96,13 +96,25 @@ El **Certificado Profesional de IA de Google** es un programa de 7 cursos diseñ
 
 ---
 
-### Cursos Pendientes:
-- [ ] **Curso 7:** Creación de aplicaciones personalizadas con IA *(Pendiente)*
+### 7. IA para la creación de apps
+*   **Duración:** 1 hora
+*   **Estado:** ✅ Completado (Obtenido el 30 de abril de 2026)
+*   **Insignia Oficial:** [🏆 Google AI for App Building (Credly)](https://www.credly.com/badges/0f03cc90-72b7-4937-8ad7-a8d2c0a0c973)
+*   **Habilidades Ganadas (Skills):**
+    *   `App building` | `Artificial Intelligence (AI)` | `vibe coding`
+*   **Capaz de crear:**
+    *   **Aplicación funcional y compartible:** Creación y despliegue de herramientas personalizadas para optimizar flujos de trabajo rutinarios mediante "vibe coding" (programación con lenguaje natural).
+    *   **Auditoría de flujos de trabajo:** Análisis sistemático de tareas repetitivas para identificar oportunidades de alta automatización y valor empleando IA.
+    *   **Desarrollo en Google AI Studio:** Exploración, prueba de prompts y prototipado rápido con los modelos de lenguaje más avanzados de Google.
+    *   **Depuración responsable:** Diagnóstico y mitigación de errores comunes en código asistido por IA garantizando la seguridad en el despliegue.
 
 ---
 
 ## 🏆 Certificaciones y Logros del Programa
 
+*   **Certificado Profesional: Google AI Professional Certificate**
+    *   Insignia de finalización del programa completo: [Google AI Professional Certificate en Credly](https://www.credly.com/badges/f67d0358-b98e-46df-9fe2-ef9d15d0ea20) (Emitida el 30 de abril de 2026).
+    *   *Habilidades certificadas globales:* `AI Acumen`, `AI for brainstorming and planning`, `AI for content creation`, `AI for Data Analysis`, `AI for research and insights`, `AI for writing and communicating`, `Artificial Intelligence (AI)`, `Prompt Engineering`, `Responsible AI`, `vibe coding`.
 *   **Curso 1: Conceptos básicos sobre la IA**
     *   Insignia verificada: [Google AI Fundamentals en Credly](https://www.credly.com/badges/b2529654-97a9-4749-a8c5-0905b93bdb3a) (Emitida el 28 de abril de 2026).
 *   **Curso 2: IA para la generación de ideas y la planificación**
@@ -115,3 +127,5 @@ El **Certificado Profesional de IA de Google** es un programa de 7 cursos diseñ
     *   Insignia verificada: [Google AI for Content Creation en Credly](https://www.credly.com/badges/790fcd77-dadb-45c6-a5e5-bf1942b01772) (Emitida el 29 de abril de 2026).
 *   **Curso 6: IA para el análisis de datos**
     *   Insignia verificada: [Google AI for Data Analysis en Credly](https://www.credly.com/badges/a6654259-65ff-4c99-87bb-5199dbc79511) (Emitida el 29 de abril de 2026).
+*   **Curso 7: IA para la creación de apps**
+    *   Insignia verificada: [Google AI for App Building en Credly](https://www.credly.com/badges/0f03cc90-72b7-4937-8ad7-a8d2c0a0c973) (Emitida el 30 de abril de 2026).
