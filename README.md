@@ -8,7 +8,7 @@ Este repositorio centraliza mi proceso de aprendizaje, documentación y especial
 
 | Curso / Certificación | Plataforma | Progreso | Certificado | Notas |
 | :--- | :--- | :---: | :---: | :---: |
-| **Certificado Profesional de Ingeniería de IA Generativa** | IBM / Coursera | ⏳ En Progreso | [🏅 Cursos 1-2](https://www.credly.com/earner/earned/badge/38c20f2d-2e34-45d8-a4f5-ff7d59e9553c) <br> [🏅 Curso 3](https://www.credly.com/earner/earned/badge/66be3eea-1277-4bd1-bdfc-cbfdd1b02525) | [Ver Notas](./Cursos/Certificado%20Profesional%20de%20Ingeniería%20de%20IA%20generativa%20de%20IBM/README.md) |
+| **Certificado Profesional de Ingeniería de IA Generativa** | IBM / Coursera | ⏳ En Progreso | [🏅 Cursos 1-2](https://www.credly.com/earner/earned/badge/38c20f2d-2e34-45d8-a4f5-ff7d59e9553c) <br> [🏅 Curso 3](https://www.credly.com/earner/earned/badge/66be3eea-1277-4bd1-bdfc-cbfdd1b02525) <br> [🏅 Curso 4](https://www.credly.com/badges/769f6277-575c-433e-8a25-5529f8003021) | [Ver Notas](./Cursos/Certificado%20Profesional%20de%20Ingeniería%20de%20IA%20generativa%20de%20IBM/README.md) |
 | **Claude & Bucle Agéntico** | Autoestudio | ⏳ En Progreso | ➖ | [Ver Notas](./Cursos/Claude/README.md) |
 | **Crea Agentes de IA sin Código con Make y Zapier** | Udemy / Varios | ✅ Completado | [🏆 Ver Credencial](#) | [Ver Notas](./Cursos/Crea%20Agentes%20de%20IA%20sin%20Código%20con%20Make%20y%20Zapier/README.md) |
 | **Kaggle AI & ML** | Kaggle | ⏳ En Progreso | [🏅 Ver Insignia](#-insignias-de-google-developer) | [Ver Notas](./Cursos/Kaggle/README.md) |

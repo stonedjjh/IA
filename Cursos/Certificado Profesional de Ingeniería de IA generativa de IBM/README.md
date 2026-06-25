@@ -2,7 +2,7 @@
 
 *   **Plataforma / Emisor:** IBM / Coursera
 *   **Estado:** ⏳ En Progreso
-*   **Progreso:** 3/16 Cursos completados
+*   **Progreso:** 4/16 Cursos completados
 
 ---
 
@@ -31,7 +31,15 @@ A continuación se detalla la hoja de ruta de los cursos incluidos en esta espec
 *   **Insignia Oficial:** [🏆 Generative AI: Prompt Engineering (Credly)](https://www.credly.com/earner/earned/badge/66be3eea-1277-4bd1-bdfc-cbfdd1b02525)
 *   **Notas del Curso:** [Ver Detalle](./Curso%203%20IA%20Generativa%20-%20Conceptos%20básicos%20de%20ingeniería%20de%20instrucciones/README.md)
 
-### 4. [Curso 4 al 16] (Pendientes de iniciar)
+### 4. Python para ciencia de datos, IA y desarrollo
+*   **Estado:** ✅ Completado
+*   **Insignia Oficial:** [🏆 Python for Data Science, AI & Development (Credly)](https://www.credly.com/badges/769f6277-575c-433e-8a25-5529f8003021)
+*   **Notas:** *Este curso abarca desde los fundamentos de la sintaxis de Python hasta el manejo de librerías clave. Las notas de los temas esenciales y librerías avanzadas se encuentran almacenadas y organizadas en mi repositorio general de Python:*
+    *   🔗 **[Notas de NumPy (GitHub)](https://github.com/stonedjjh/python/blob/main/Librerias/NumPy.md)**: Sintaxis y operaciones básicas de vectores.
+    *   🔗 **[Notas de Matemáticas Matriciales con NumPy (GitHub)](https://github.com/stonedjjh/python/blob/main/Librerias/Matem%C3%A1ticas%20Matriciales%20con%20NumPy.md)**: Operaciones de matrices y álgebra básica con NumPy.
+    *   🔗 **[Notas de Pandas (GitHub)](https://github.com/stonedjjh/python/blob/main/Librerias/Panda.md)**: DataFrames, manipulación y análisis de datos tabulares.
+
+### 5. [Curso 5 al 16] (Pendientes de iniciar)
 *   *Los siguientes cursos se irán agregando y detallando a medida que se inicie su estudio.*
 
 ---
@@ -53,3 +61,5 @@ A continuación se detalla la hoja de ruta de los cursos incluidos en esta espec
     *   Insignia verificada: [Generative AI: Introduction and Applications en Credly](https://www.credly.com/earner/earned/badge/38c20f2d-2e34-45d8-a4f5-ff7d59e9553c) (Emitida el 26 de mayo de 2026 por Coursera y autorizada por IBM).
 *   **Curso 3: IA Generativa: Conceptos básicos de ingeniería de instrucciones**
     *   Insignia verificada: [Generative AI: Prompt Engineering en Credly](https://www.credly.com/earner/earned/badge/66be3eea-1277-4bd1-bdfc-cbfdd1b02525) (Emitida el 31 de mayo de 2026 por Coursera y autorizada por IBM).
+*   **Curso 4: Python para ciencia de datos, IA y desarrollo**
+    *   Insignia verificada: [Python for Data Science, AI & Development en Credly](https://www.credly.com/badges/769f6277-575c-433e-8a25-5529f8003021) (Emitida por Coursera y autorizada por IBM).
