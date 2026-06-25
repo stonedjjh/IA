@@ -31,7 +31,7 @@ El **Certificado Profesional de IA de Google** es un programa de 7 cursos diseñ
 ### 2. IA para la generación de ideas y la planificación
 *   **Duración:** 1 hora
 *   **Estado:** ✅ Completado (Obtenido el 28 de abril de 2026)
-*   **Insignia Oficial:** [🏆 Google AI for Brainstorming and Planning (Credly)](https://www.credly.com/badges/b2529654-97a9-4749-a8c5-0905b93bdb3a)
+*   **Insignia Oficial:** [🏆 Google AI for Brainstorming and Planning (Credly)](https://www.credly.com/badges/cc610c20-9d3e-4a90-af60-6e829473fe83)
 *   **Habilidades Ganadas (Skills):**
     *   `Artificial Intelligence (AI)` | `Brainstorming` | `Coordinating` | `Planning` | `Problem Solving` | `Process Improvement` | `Project Management` | `Time Management`
 *   **Capaz de crear:**
@@ -67,6 +67,6 @@ El **Certificado Profesional de IA de Google** es un programa de 7 cursos diseñ
 *   **Curso 1: Conceptos básicos sobre la IA**
     *   Insignia verificada: [Google AI Fundamentals en Credly](https://www.credly.com/badges/b2529654-97a9-4749-a8c5-0905b93bdb3a) (Emitida el 28 de abril de 2026).
 *   **Curso 2: IA para la generación de ideas y la planificación**
-    *   Insignia verificada: [Google AI for Brainstorming and Planning en Credly](https://www.credly.com/badges/b2529654-97a9-4749-a8c5-0905b93bdb3a) (Emitida el 28 de abril de 2026).
+    *   Insignia verificada: [Google AI for Brainstorming and Planning en Credly](https://www.credly.com/badges/cc610c20-9d3e-4a90-af60-6e829473fe83) (Emitida el 28 de abril de 2026).
 *   **Curso 3: IA para la investigación y la recopilación de información útil**
     *   Insignia verificada: [Google AI for Research and Insights en Credly](https://www.credly.com/badges/04fdb0ed-13ed-4b55-876f-9f4bebfd0551) (Emitida el 29 de abril de 2026).
