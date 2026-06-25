@@ -2,7 +2,7 @@
 
 *   **Plataforma / Emisor:** IBM / Coursera
 *   **Estado:** ⏳ En Progreso
-*   **Progreso:** 4/16 Cursos completados
+*   **Progreso:** 5/16 Cursos completados
 
 ---
 
@@ -33,13 +33,19 @@ A continuación se detalla la hoja de ruta de los cursos incluidos en esta espec
 
 ### 4. Python para ciencia de datos, IA y desarrollo
 *   **Estado:** ✅ Completado
-*   **Insignia Oficial:** [🏆 Python for Data Science, AI & Development (Credly)](https://www.credly.com/badges/769f6277-575c-433e-8a25-5529f8003021)
+*   **Insignia Oficial:** [🏆 Python for Data Science, AI & Development (Credly)](https://www.credly.com/badges/da554f71-2953-4a3f-93fc-2ceb1bbf26a4)
 *   **Notas:** *Este curso abarca desde los fundamentos de la sintaxis de Python hasta el manejo de librerías clave. Las notas de los temas esenciales y librerías avanzadas se encuentran almacenadas y organizadas en mi repositorio general de Python:*
     *   🔗 **[Notas de NumPy (GitHub)](https://github.com/stonedjjh/python/blob/main/Librerias/NumPy.md)**: Sintaxis y operaciones básicas de vectores.
     *   🔗 **[Notas de Matemáticas Matriciales con NumPy (GitHub)](https://github.com/stonedjjh/python/blob/main/Librerias/Matem%C3%A1ticas%20Matriciales%20con%20NumPy.md)**: Operaciones de matrices y álgebra básica con NumPy.
     *   🔗 **[Notas de Pandas (GitHub)](https://github.com/stonedjjh/python/blob/main/Librerias/Panda.md)**: DataFrames, manipulación y análisis de datos tabulares.
 
-### 5. [Curso 5 al 16] (Pendientes de iniciar)
+### 5. Desarrollo de aplicaciones de IA con Python y Flask
+*   **Estado:** ✅ Completado
+*   **Insignia Oficial:** [🏆 Developing AI Applications with Python and Flask (Credly)](https://www.credly.com/badges/769f6277-575c-433e-8a25-5529f8003021)
+*   **Notas:** *Desarrollo de aplicaciones web y APIs usando Flask y la suite de Watson AI. Los apuntes de esta sección se encuentran almacenados y organizados en mi repositorio de Python:*
+    *   🔗 **[Notas y Proyectos de Flask (GitHub)](https://github.com/stonedjjh/python/tree/main/framework/flask)**: Enrutamiento, manejo de peticiones GET/POST, plantillas y creación de APIs.
+
+### 6. [Curso 6 al 16] (Pendientes de iniciar)
 *   *Los siguientes cursos se irán agregando y detallando a medida que se inicie su estudio.*
 
 ---
@@ -62,4 +68,6 @@ A continuación se detalla la hoja de ruta de los cursos incluidos en esta espec
 *   **Curso 3: IA Generativa: Conceptos básicos de ingeniería de instrucciones**
     *   Insignia verificada: [Generative AI: Prompt Engineering en Credly](https://www.credly.com/earner/earned/badge/66be3eea-1277-4bd1-bdfc-cbfdd1b02525) (Emitida el 31 de mayo de 2026 por Coursera y autorizada por IBM).
 *   **Curso 4: Python para ciencia de datos, IA y desarrollo**
-    *   Insignia verificada: [Python for Data Science, AI & Development en Credly](https://www.credly.com/badges/769f6277-575c-433e-8a25-5529f8003021) (Emitida por Coursera y autorizada por IBM).
+    *   Insignia verificada: [Python for Data Science, AI & Development en Credly](https://www.credly.com/badges/da554f71-2953-4a3f-93fc-2ceb1bbf26a4) (Emitida por Coursera y autorizada por IBM).
+*   **Curso 5: Desarrollo de aplicaciones de IA con Python y Flask**
+    *   Insignia verificada: [Developing AI Applications with Python and Flask en Credly](https://www.credly.com/badges/769f6277-575c-433e-8a25-5529f8003021) (Emitida por Coursera y autorizada por IBM).
