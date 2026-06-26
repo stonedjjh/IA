@@ -45,8 +45,19 @@ A continuación se detalla la hoja de ruta de los cursos incluidos en esta espec
 *   **Notas:** *Desarrollo de aplicaciones web y APIs usando Flask y la suite de Watson AI. Los apuntes de esta sección se encuentran almacenados y organizados en mi repositorio de Python:*
     *   🔗 **[Notas y Proyectos de Flask (GitHub)](https://github.com/stonedjjh/python/tree/main/framework/flask)**: Enrutamiento, manejo de peticiones GET/POST, plantillas y creación de APIs.
 
-### 6. [Curso 6 al 16] (Pendientes de iniciar)
-*   *Los siguientes cursos se irán agregando y detallando a medida que se inicie su estudio.*
+### 6. Creación de aplicaciones generativas basadas en IA con Python
+*   **Estado:** ⏳ En Progreso (Iniciado el 25 de junio de 2026)
+*   **Insignia Oficial:** ➖ *(Pendiente de finalización)*
+*   **Notas del Curso:** [Apuntes sobre BLIP (Hugging Face)](./Curso%206%20Creación%20de%20aplicaciones%20generativas%20basadas%20en%20IA%20con%20Python/BLIP%20de%20Hugging%20Face%20Transformers.md) *(En Progreso)*
+*   **Logros de Aprendizaje y Contenido:**
+    *   **Desarrollo Práctico de Proyectos:** Creación de asistentes de voz, resumidores de reuniones, traductores de idiomas y entrenadores profesionales personalizados.
+    *   **Integración de Frameworks y Herramientas:** Uso práctico de Python, Flask, Gradio y LangChain para crear aplicaciones interactivas y chatbots.
+    *   **Uso de Modelos de Lenguaje (LLMs):** Experimentación con modelos populares como GPT-3, Llama 2 y Flan-UL2 alojados en IBM watsonx y Hugging Face.
+    *   **Implementación de RAG (Retrieval-Augmented Generation):** Conceptos avanzados para enriquecer las respuestas de los LLMs con datos y conocimiento externo.
+    *   **Interacciones por Voz:** Integración de tecnologías Speech-to-Text (STT) y Text-to-Speech (TTS) con IBM Watson® Speech Libraries y OpenAI Whisper.
+
+### 7. [Cursos 7 al 16] (Pendientes de iniciar)
+*   *Los siguientes cursos se irán detallando e incorporando a medida que se inicie su estudio.*
 
 ---
 
