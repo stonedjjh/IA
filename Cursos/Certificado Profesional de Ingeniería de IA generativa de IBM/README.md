@@ -38,6 +38,7 @@ A continuación se detalla la hoja de ruta de los cursos incluidos en esta espec
     *   🔗 **[Notas de NumPy (GitHub)](https://github.com/stonedjjh/python/blob/main/Librerias/NumPy.md)**: Sintaxis y operaciones básicas de vectores.
     *   🔗 **[Notas de Matemáticas Matriciales con NumPy (GitHub)](https://github.com/stonedjjh/python/blob/main/Librerias/Matem%C3%A1ticas%20Matriciales%20con%20NumPy.md)**: Operaciones de matrices y álgebra básica con NumPy.
     *   🔗 **[Notas de Pandas (GitHub)](https://github.com/stonedjjh/python/blob/main/Librerias/Panda.md)**: DataFrames, manipulación y análisis de datos tabulares.
+    *   🔗 **[Notas de Requests (GitHub)](https://github.com/stonedjjh/python/blob/main/Librerias/requests.md)**: Consumo de APIs y peticiones HTTP en Python.
 
 ### 5. Desarrollo de aplicaciones de IA con Python y Flask
 *   **Estado:** ✅ Completado
