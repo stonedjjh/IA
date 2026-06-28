@@ -48,7 +48,9 @@ A continuación se detalla la hoja de ruta de los cursos incluidos en esta espec
 ### 6. Creación de aplicaciones generativas basadas en IA con Python
 *   **Estado:** ⏳ En Progreso (Iniciado el 25 de junio de 2026)
 *   **Insignia Oficial:** ➖ *(Pendiente de finalización)*
-*   **Notas del Curso:** [Apuntes sobre BLIP (Hugging Face)](./Curso%206%20Creación%20de%20aplicaciones%20generativas%20basadas%20en%20IA%20con%20Python/BLIP%20de%20Hugging%20Face%20Transformers.md) *(En Progreso)*
+*   **Notas del Curso:**
+    *   🔗 [Apuntes sobre BLIP (Hugging Face)](./Curso%206%20Creación%20de%20aplicaciones%20generativas%20basadas%20en%20IA%20con%20Python/BLIP%20de%20Hugging%20Face%20Transformers.md) *(En Progreso)*
+    *   🔗 [Apuntes sobre Gradio](./Curso%206%20Creación%20de%20aplicaciones%20generativas%20basadas%20en%20IA%20con%20Python/Gradio.md) *(En Progreso)*
 *   **Logros de Aprendizaje y Contenido:**
     *   **Desarrollo Práctico de Proyectos:** Creación de asistentes de voz, resumidores de reuniones, traductores de idiomas y entrenadores profesionales personalizados.
     *   **Integración de Frameworks y Herramientas:** Uso práctico de Python, Flask, Gradio y LangChain para crear aplicaciones interactivas y chatbots.
