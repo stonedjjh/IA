@@ -2,7 +2,7 @@
 
 *   **Plataforma / Emisor:** IBM / Coursera
 *   **Estado:** ⏳ En Progreso
-*   **Progreso:** 5/16 Cursos completados
+*   **Progreso:** 6/16 Cursos completados
 
 ---
 
@@ -47,10 +47,10 @@ A continuación se detalla la hoja de ruta de los cursos incluidos en esta espec
     *   🔗 **[Notas y Proyectos de Flask (GitHub)](https://github.com/stonedjjh/python/tree/main/framework/flask)**: Enrutamiento, manejo de peticiones GET/POST, plantillas y creación de APIs.
 
 ### 6. Creación de aplicaciones generativas basadas en IA con Python
-*   **Estado:** ⏳ En Progreso (Iniciado el 25 de junio de 2026)
-*   **Insignia Oficial:** ➖ *(Pendiente de finalización)*
+*   **Estado:** ✅ Completado
+*   **Insignia Oficial:** [🏆 Building Generative AI-Powered Applications with Python (Credly)](https://www.credly.com/badges/afda0fd7-761d-441c-80bf-4f576dada68c/public_url)
 *   **Notas del Curso:**
-    *   🔗 [Apuntes sobre BLIP (Hugging Face)](./Curso%206%20Creación%20de%20aplicaciones%20generativas%20basadas%20en%20IA%20con%20Python/BLIP%20de%20Hugging%20Face%20Transformers.md) *(En Progreso)*
+    *   🔗 [Apuntes sobre BLIP (Hugging Face)](./Curso%206%20Creación%20de%20aplicaciones%20generativas%20basadas%20en%20IA%20con%20Python/BLIP%20de%20Hugging%20Face%20Transformers.md)
     *   🔗 **[Notas de Gradio (GitHub)](https://github.com/stonedjjh/python/blob/main/Librerias/Gradio.md)**: Creación de interfaces web rápidas para modelos de Machine Learning (en repositorio de Python).
 *   **Logros de Aprendizaje y Contenido:**
     *   **Desarrollo Práctico de Proyectos:** Creación de asistentes de voz, resumidores de reuniones, traductores de idiomas y entrenadores profesionales personalizados.
@@ -59,7 +59,12 @@ A continuación se detalla la hoja de ruta de los cursos incluidos en esta espec
     *   **Implementación de RAG (Retrieval-Augmented Generation):** Conceptos avanzados para enriquecer las respuestas de los LLMs con datos y conocimiento externo.
     *   **Interacciones por Voz:** Integración de tecnologías Speech-to-Text (STT) y Text-to-Speech (TTS) con IBM Watson® Speech Libraries y OpenAI Whisper.
 
-### 7. [Cursos 7 al 16] (Pendientes de iniciar)
+### 7. Análisis de datos con Python
+*   **Estado:** ⏳ En Progreso
+*   **Insignia Oficial:** ➖ *(Pendiente de finalización)*
+*   **Notas:** *Este curso es como la continuación del módulo 4.*
+
+### 8. [Cursos 8 al 16] (Pendientes de iniciar)
 *   *Los siguientes cursos se irán detallando e incorporando a medida que se inicie su estudio.*
 
 ---
@@ -85,3 +90,5 @@ A continuación se detalla la hoja de ruta de los cursos incluidos en esta espec
     *   Insignia verificada: [Python for Data Science, AI & Development en Credly](https://www.credly.com/badges/da554f71-2953-4a3f-93fc-2ceb1bbf26a4/public_url) (Emitida el 12 de junio por Coursera y autorizada por IBM).
 *   **Curso 5: Desarrollo de aplicaciones de IA con Python y Flask**
     *   Insignia verificada: [Developing AI Applications with Python and Flask en Credly](https://www.credly.com/badges/769f6277-575c-433e-8a25-5529f8003021/public_url) (Emitida el 19 de junio por Coursera y autorizada por IBM).
+*   **Curso 6: Creación de aplicaciones generativas basadas en IA con Python**
+    *   Insignia verificada: [Building Generative AI-Powered Applications with Python en Credly](https://www.credly.com/badges/afda0fd7-761d-441c-80bf-4f576dada68c/public_url) (Emitida el 13 de agosto por Coursera y autorizada por IBM).
