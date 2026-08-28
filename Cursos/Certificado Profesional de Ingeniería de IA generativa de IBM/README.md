@@ -63,6 +63,7 @@ A continuación se detalla la hoja de ruta de los cursos incluidos en esta espec
 *   **Estado:** ⏳ En Progreso
 *   **Insignia Oficial:** ➖ *(Pendiente de finalización)*
 *   **Notas:** *Este curso es como la continuación del módulo 4.*
+*   **Ejercicios y Prácticas:** El resultado de los ejercicios (incluyendo los del módulo 1) y todas las prácticas relacionadas se documentan de forma independiente en el [Repositorio de Análisis de Datos](https://github.com/stonedjjh/An-lisis-de-Datos).
 
 ### 8. [Cursos 8 al 16] (Pendientes de iniciar)
 *   *Los siguientes cursos se irán detallando e incorporando a medida que se inicie su estudio.*
