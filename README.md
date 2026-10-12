@@ -17,6 +17,17 @@ Este repositorio centraliza mi proceso de aprendizaje, documentación y especial
 
 ---
 
+## Conceptos Fundamentales de IA
+
+Definiciones esenciales, glosario y fundamentos teóricos de Inteligencia Artificial ([Ver Índice Completo](./conceptos/README.md)):
+
+*   **[NLP (Natural Language Processing)](./conceptos/nlp.md)**: Campo de la IA centrado en comprender, interpretar y manipular el lenguaje humano hablado y escrito.
+*   **[Transformers](./conceptos/transformers.md)**: Arquitectura de red neuronal basada en mecanismos de atención que revolucionó el procesamiento de secuencias.
+*   **[Tokens y Tokenización](./conceptos/tokens.md)**: Unidades mínimas de construcción y procesamiento del lenguaje en modelos de IA.
+*   **[LLM (Large Language Model)](./conceptos/llm.md)**: Definición, capacidades, arquitectura Transformer y familias representativas de modelos de lenguaje grande.
+
+---
+
 ## 🛠️ Herramientas de Automatización e IA
 
 Documentación y ejemplos prácticos sobre herramientas para orquestar flujos de trabajo y potenciar el uso de modelos de lenguaje:
@@ -25,6 +36,23 @@ Documentación y ejemplos prácticos sobre herramientas para orquestar flujos de
     *   *Ejemplo práctico:* [Automatización de Formulario a Google Sheets](./Cursos/Crea%20Agentes%20de%20IA%20sin%20C%C3%B3digo%20con%20Make%20y%20Zapier/Make/Ejercicios/Primer-ejercicio.md).
 *   **[Zapier](./Cursos/Crea%20Agentes%20de%20IA%20sin%20C%C3%B3digo%20con%20Make%20y%20Zapier/Zapier/Zapier.md)**: Conceptos clave sobre Zaps, tablas nativas y agentes.
     *   *Ejemplo práctico:* [Envío de correos de confirmación con IA](./Cursos/Crea%20Agentes%20de%20IA%20sin%20C%C3%B3digo%20con%20Make%20y%20Zapier/Zapier/Ejercicios/Primer-ejercicio.md).
+
+## Agentes de IA
+
+Documentación sobre fundamentos, diseño arquitectónico y evolución de sistemas agénticos ([Ver Índice Completo](./agentes/README.md)):
+
+*   **[Arquitectura y Evolución](./agentes/arquitectura_y_evolucion.md)**: Del modelo fundacional (Cerebro, Herramientas, Memoria y Planificación) a los entornos modernos con MCP, Guardrails, Harness y memoria desacoplada.
+
+---
+
+## Frameworks y Arquitecturas de IA
+
+Documentación y análisis sobre marcos de trabajo, orquestación composicional, uso de herramientas e invocación de APIs ([Ver Índice Completo](./framework/README.md)):
+
+*   **[Chameleon](./framework/chameleon.md)**: Razonamiento composicional y aumento de LLMs mediante herramientas modulares (UCLA / Microsoft).
+*   **[Gorilla](./framework/gorilla.md)**: LLM especializado en invocación precisa de APIs a gran escala (UC Berkeley / Microsoft).
+*   **[GPT4Tools](./framework/gpt4tools.md)**: Enseñanza y ajuste de LLMs con LoRA para el uso de herramientas visuales y multimodales.
+*   **[HuggingGPT](./framework/hugginggpt.md)**: LLM como controlador (JARVIS) para orquestar y ejecutar modelos expertos de Hugging Face.
 
 ---
 
