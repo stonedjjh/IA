@@ -1,5 +1,7 @@
 # Herramientas No-Code y Low-Code para Automatización e IA
 
+*Panorama y estado del ecosistema: Octubre de 2026*
+
 Las plataformas **No-Code** y **Low-Code** permiten diseñar flujos de trabajo, automatizar procesos empresariales y construir sistemas agénticos mediante interfaces visuales (como lienzos de arrastrar y soltar) sin necesidad de escribir código desde cero o con una intervención mínima de scripts.
 
 En el contexto de la Inteligencia Artificial, estas plataformas actúan como **orquestadores del bucle agéntico**, conectando modelos de lenguaje (LLMs) con bases de datos, APIs de terceros y herramientas de ejecución externa.
@@ -51,41 +53,61 @@ En el contexto de la Inteligencia Artificial, estas plataformas actúan como **o
 
 ---
 
-## 4. Flowise
+## 4. Dify
 
-**Definición:** Herramienta visual basada en nodos construida específicamente como interfaz gráfica (*UI Drag & Drop*) para **LangChain** y **LlamaIndex**.
+**Definición:** Plataforma moderna de desarrollo de aplicaciones de IA de código abierto (*LLM App Development Platform*) que combina orquestación visual de agentes, flujos de trabajo (*AI Workflows*) y pipelines de RAG listos para producción.
 
 * **Ventajas clave:**
-  * Enfoque 100% especializado en desarrollo de aplicaciones de IA, agentes y sistemas RAG (*Retrieval-Augmented Generation*).
-  * Permite componer pipelines agénticos complejos conectando visualmente cargadores de datos, *embeddings*, bases vectoriales, herramientas personalizadas y modelos de lenguaje.
-  * Exportación directa del flujo a través de endpoints de API REST o widgets de chat incrustables para sitios web.
+  * Es el estándar actual de código abierto que lidera el ecosistema de orquestación de agentes visuales.
+  * Motor RAG visual completo: ingesta, partición automática de documentos, generación de *embeddings* y búsqueda híbrida con re-ranking.
+  * Publicación inmediata de aplicaciones mediante Web Apps listas para usar, widgets incrustables o APIs REST para integrar en cualquier backend.
+  * Soporte nativo para bucles de agentes basados en Function Calling y ReAct.
 * **Propiedades principales:**
-  * Código abierto y ejecutable localmente con Node.js o Docker.
-  * Soporte nativo para arquitecturas multi-agente, memoria conversacional y cadenas de razonamiento.
-  * Interfaz de pruebas (*playground*) integrada para evaluar agentes en vivo.
+  * Código abierto, autoalojable (*self-hosted* con Docker) y con opción Cloud gestionada.
+  * Orquestación híbrida: permite crear desde prompts simples hasta grafos complejos de ejecución condicional.
+  * Herramientas de observabilidad, trazas de ejecución y análisis de consumo de tokens integradas.
 
 ---
 
-## 5. TaskingAI
+## 5. Voiceflow
 
-**Definición:** Plataforma integral y entorno de desarrollo (BaaS - Backend as a Service) para la creación, gestión y despliegue de agentes de IA y asistentes inteligentes.
+**Definición:** Plataforma visual de nivel empresarial diseñada específicamente para el prototipado, diseño colaborativo y despliegue de asistentes conversacionales y agentes de voz/texto.
 
 * **Ventajas clave:**
-  * Centralización arquitectónica: agrupa en un solo lugar la gestión de Modelos (LLMs de múltiples proveedores), Memoria persistente, Conocimiento estructurado (colecciones RAG) y Plugins (herramientas).
-  * Desacopla la lógica del agente de la interfaz visual mediante una API nativa para consumir los agentes desde cualquier aplicación.
-  * Disponibilidad tanto en versión comunitaria de código abierto (*self-hosted*) como en servicio en la nube gestionado.
+  * Interfaz de diseño conversacional de clase mundial pensada para equipos multidisciplinarios (diseñadores de conversación, desarrolladores y producto).
+  * Simulador de pruebas interactivo que permite depurar estados de conversación, variables contextuales y ramificaciones en tiempo real.
+  * Integración híbrida: combina respuestas generativas basadas en LLMs con árboles de decisión deterministas para casos donde se requiere control estricto de negocio.
 * **Propiedades principales:**
-  * Orientada específicamente a agentes y desarrollo agéntico nativo (no a automatización tradicional de tareas ofimáticas).
-  * Control granular sobre el contexto, la búsqueda semántica y el catálogo de herramientas externas.
+  * Plataforma en la nube (SaaS) con capacidades de trabajo colaborativo en tiempo real (similar a Figma para agentes conversacionales).
+  * Gestión nativa de bases de conocimiento (Knowledge Base) para responder preguntas basadas en documentos.
+  * Conexión con APIs externas mediante bloques HTTP para consultar o enviar datos durante la interacción.
 
 ---
 
-## Cuadro Comparativo Rápido
+## 6. Herramientas Pioneras de Primera Ola (Legado y Estado de Mantenimiento)
 
-| Plataforma | Enfoque Principal | Tipo de Despliegue | Nivel Técnico | Caso de Uso Ideal |
+Las siguientes herramientas fueron pioneras fundamentales entre 2023 y 2024 para popularizar las interfaces visuales de agentes y RAG. Es importante conocerlas históricamente, aunque hoy presentan limitaciones de mantenimiento o adopción activa frente a soluciones modernas como n8n o Dify:
+
+### Flowise
+* **Estado:** Proyecto histórico / repositorio archivado (2026).
+* **Propósito original:** Fue la interfaz gráfica pionera (*UI Drag & Drop*) construida para interconectar bloques de LangChain y LlamaIndex en el navegador.
+* **Lección arquitectónica:** Demostró el enorme interés de la comunidad por interfaces visuales para componer cadenas y RAG, pero su rigidez para personalizar código complejo en entornos de producción llevó a los equipos a migrar hacia frameworks en código (como LangGraph) o plataformas más robustas como Dify.
+
+### TaskingAI
+* **Estado:** Bajo mantenimiento / estancamiento en actualizaciones activas.
+* **Propósito original:** Plataforma integral (BaaS) orientada a centralizar modelos, memoria persistente, conocimiento (RAG) y plugins en una sola interfaz y API unificada.
+* **Lección arquitectónica:** Planteó un concepto arquitectónico muy valioso (desacoplar el cerebro, la memoria y las herramientas del agente para servirlos vía API), pero la rápida evolución de los estándares de la industria (como el protocolo MCP y soluciones más activas) redujo su tracción.
+
+---
+
+## Cuadro Comparativo General
+
+| Plataforma | Estado en el Ecosistema | Enfoque Principal | Tipo de Despliegue | Nivel Técnico |
 | :--- | :--- | :--- | :--- | :--- |
-| **Make** | Automatización general de procesos | Cloud (SaaS) | Medio | Procesos de negocio con datos estructurados y lógica condicional. |
-| **Zapier** | Integración ágil entre SaaS comerciales | Cloud (SaaS) | Bajo | Conexión rápida entre herramientas comerciales sin desarrollo. |
-| **n8n** | Automatización técnica y flujos con IA | Self-hosted / Cloud | Medio - Alto | Privacidad estricta de datos y control total sobre código y agentes. |
-| **Flowise** | Interfaces visuales para LangChain y RAG | Self-hosted / Cloud | Medio | Prototipado rápido de chatbots con bases de conocimiento y RAG. |
-| **TaskingAI** | Backend unificado para agentes y memoria | Self-hosted / Cloud | Medio | Desarrollo modular de asistentes autónomos con herramientas y API. |
+| **Make** | Activo y masivo | Automatización general de procesos de negocio | Cloud (SaaS) | Medio |
+| **Zapier** | Activo y masivo | Integración ágil entre herramientas SaaS comerciales | Cloud (SaaS) | Bajo |
+| **n8n** | Activo y líder Open Source | Automatización técnica y orquestación con IA / LangChain | Self-hosted / Cloud | Medio - Alto |
+| **Dify** | Activo y vanguardia RAG | Desarrollo integral de aplicaciones LLM, flujos y agentes | Self-hosted / Cloud | Medio |
+| **Voiceflow** | Activo y líder conversacional| Diseño y despliegue de asistentes conversacionales y voz | Cloud (SaaS) | Bajo - Medio |
+| **Flowise** | Primera ola / Archivado | Lienzo visual pionero para cadenas de LangChain/LlamaIndex | Self-hosted / Cloud | Medio |
+| **TaskingAI** | Primera ola / Bajo mantenimiento | BaaS para agentes unificando modelos, memoria y RAG | Self-hosted / Cloud | Medio |
