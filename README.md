@@ -28,10 +28,11 @@ Definiciones esenciales, glosario y fundamentos teóricos de Inteligencia Artifi
 
 ---
 
-## 🛠️ Herramientas de Automatización e IA
+## Herramientas de Automatización e IA
 
 Documentación y ejemplos prácticos sobre herramientas para orquestar flujos de trabajo y potenciar el uso de modelos de lenguaje:
 
+*   **[Panorama No-Code / Low-Code](./conceptos/herramientas_nocode_lowcode.md)**: Análisis comparativo de plataformas visuales y de orquestación (Make, Zapier, n8n, Flowise y TaskingAI).
 *   **[Make](./Cursos/Crea%20Agentes%20de%20IA%20sin%20C%C3%B3digo%20con%20Make%20y%20Zapier/Make/Make.md)**: Notas sobre orquestación visual y gestión de escenarios.
     *   *Ejemplo práctico:* [Automatización de Formulario a Google Sheets](./Cursos/Crea%20Agentes%20de%20IA%20sin%20C%C3%B3digo%20con%20Make%20y%20Zapier/Make/Ejercicios/Primer-ejercicio.md).
 *   **[Zapier](./Cursos/Crea%20Agentes%20de%20IA%20sin%20C%C3%B3digo%20con%20Make%20y%20Zapier/Zapier/Zapier.md)**: Conceptos clave sobre Zaps, tablas nativas y agentes.
@@ -49,6 +50,7 @@ Documentación sobre fundamentos, diseño arquitectónico y evolución de sistem
 
 Documentación y análisis sobre marcos de trabajo, orquestación composicional, uso de herramientas e invocación de APIs ([Ver Índice Completo](./framework/README.md)):
 
+*   **[LangChain](./framework/langchain.md)**: Framework de desarrollo en código para creación de cadenas, RAG, agentes y observabilidad (LangSmith / LangGraph).
 *   **[Chameleon](./framework/chameleon.md)**: Razonamiento composicional y aumento de LLMs mediante herramientas modulares (UCLA / Microsoft).
 *   **[Gorilla](./framework/gorilla.md)**: LLM especializado en invocación precisa de APIs a gran escala (UC Berkeley / Microsoft).
 *   **[GPT4Tools](./framework/gpt4tools.md)**: Enseñanza y ajuste de LLMs con LoRA para el uso de herramientas visuales y multimodales.
